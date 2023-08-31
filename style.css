@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;600&family=Poppins:wght@100;400&family=Work+Sans:wght@400;600;700;800&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body p {
+  font-size: 0.7rem;
+}
+
+.nuvosa-color {
+  color: #bc424e;
+}
+
+.fontweight400 {
+  font-weight: 400;
+}
+
+.font-black {
+  color: #212528;
+}
+
+.font-market {
+  color: #a3a2a2;
+}
+
+.fontweight900 {
+  font-weight: 900;
+}
+
+.font-lightblack {
+  color: #909090;
+}
+
+.font-grey {
+  color: #727272;
+}
+
+.font-gray {
+  color: #828282;
+}
+
+.background-yellow {
+  background-color: #fad725 !important;
+}
+
+.blue-color {
+  color: #6f77f1 !important;
+}
+
+.black-color {
+  color: #212528 !important;
+}
+
+.social a {
+  text-decoration: none !important;
+}
+
+/* nav section start */
+
+.nav-item a:hover {
+  text-decoration: underline #6f77f1;
+  text-underline-offset: 0.5rem;
+}
+
+.hero-search {
+  background-color: #fad725 !important;
+  width: 3rem;
+  height: 3rem;
+}
+
+/* nav section end */
+
+/* hero section start */
+
+h1 {
+  font-family: "Inter", sans-serif;
+}
+
+.hero-expert {
+  transform: rotate(-15deg);
+  border: 2px solid #6f77f1;
+  width: 7rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: -4rem;
+}
+
+/* hero section end */
+
+/* media section start */
+
+.social,
+.email,
+.seo {
+  box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07);
+}
+
+/* media section end */
+
+/*  website section start */
+
+.keyword {
+  background-image: url("./images/1.png");
+}
+
+.content {
+  background-image: url("./images/2.png");
+}
+
+.target {
+  background-image: url("./images/3.png");
+}
+
+.continuous {
+  background-image: url("./images/4.png");
+}
+
+.keyword,
+.content,
+.target,
+.continuous {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.keyword:hover,
+.content:hover,
+.target:hover,
+.continuous:hover {
+  border-bottom: 2px solid #717AE0;
+  box-shadow: 0px 10px 14px 2px rgba(14, 17, 60, 0.03);
+}
+
+/*  website section end */
+
+/*  grow section start */
+
+.grow:hover,
+.get:hover,
+.drive:hover {
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+
+}
+
+/*  grow section end */
+
+/* perfect business start */
+
+.background-blur {
+  background-color: #fafafa;
+}
+
+/* perfect business end */
+
+/*  choose us section start */
+
+.choose-first:hover,
+.choose-second:hover,
+.choose-third:hover {
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+}
+
+.image-third {
+  max-height: 3.5rem;
+}
+
+.choose-us {
+  background-color: #fafafa;
+}
+
+/*  choose us section end */
+
+/*  need it section start */
+
+.need-social:hover,
+.need-email:hover,
+.need-seo:hover {
+  box-shadow: 5px 25px 37px rgba(2, 22, 5, 0.06);
+}
+
+/*  need it section end */
+
+/* experience section start */
+
+.number-color {
+  color: #666565;
+}
+
+.text-color {
+  color: #6f6f6f;
+}
+
+.red {
+  color: #d1563b;
+}
+
+.green {
+  color: #3bd165;
+}
+
+.yellow {
+  color: #f7c745;
+}
+
+
+/* experience section end */
+
+/* check website speed section start */
+
+.website-input .form-speed {
+  background-color: #f2f2f2;
+}
+
+.form-speed::placeholder {
+  opacity: 0.5;
+}
+
+/* check website speed section end */
+
+/*  our plans section start */
+.plans-left:hover,
+.plans-middle:hover,
+.plans-right:hover {
+  background-color: #6f77f1;
+  transform: scale(1.1, 1.1);
+}
+
+.plans-left:hover button,
+.plans-middle:hover button,
+.plans-right:hover button {
+  background-color: #fad725;
+  border: none !important;
+}
+
+.plans-left:hover p,
+.plans-middle:hover p,
+.plans-right:hover p {
+  color: white !important;
+}
+
+.plans-left,
+.plans-middle,
+.plans-right {
+  transition-duration: 3s;
+}
+
+/*  our plans section end */
+
+/*  member section start */
+.members-information:hover {
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+  border: none !important;
+}
+
+.member-box:hover {
+  color: #6f77f1;
+}
+
+.members-information a:hover {
+  color: #6f77f1 !important;
+}
+/*  member section end */
+
+/* clients section start */
+
+.clients-box {
+  background-image: url("./images/clients-background.png");
+  background-repeat: no-repeat;
+}
+.clients-box:hover {
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+  border: none !important;
+}
+
+/* clients section end */
+
+/* subscibe section start */
+
+.subscribe-button {
+  background-color: #6f77f1 !important;
+}
+
+.subscibe {
+  background-color: #fafafa;
+  margin: 1rem 10rem;
+}
+
+/* subscibe section end */
+
+/* footer section start */
+
+.footer-bottom {
+  font-size: 0.6rem;
+}
+.footer a {
+  font-size: 0.7rem;
+}
+
+/* footer section end */
+
+@media (min-width: 768px) {
+  .navbar-middle {
+    font-size: 0.9rem !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  .media-heading {
+    font-size: 1rem !important;
+  }
+
+  .speed-left {
+    width: 50%;
+  }
+
+  .speed-right {
+    width: 50%;
+  }
+  
+  .business-left {
+    width: 50%;
+  }
+
+  .business-right {
+    width: 50%;
+  }
+
+  /*  need it section start */
+
+  .need-left {
+    width: 50vw;
+  }
+
+  .need-right {
+    width: 50vw;
+  }
+
+  /*  need it section end */
+}
+
+@media (min-width: 1024px) {
+
+  .navbar-middle {
+    font-size: 1rem !important;
+  }
+
+  /*  hero section start */
+
+  h1 {
+    font-size: 2.7rem !important;
+  }
+
+  .hero-expert {
+    margin-top: 3rem;
+  }
+
+  /* hero section end */
+
+  .media-heading {
+    font-size: 1.5rem !important;
+  }
+
+  .business-left {
+    width: 40%;
+  }
+
+  .business-right {
+    width: 40%;
+  }
+
+  .choose-icon {
+    width: 75%;
+  }
+
+  .experience {
+    width: 86vw;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+  /*  hero section start */
+
+  h1 {
+    font-size: 4rem !important;
+  }
+
+  .hero-left p {
+    font-size: 1rem !important;
+  }
+
+  .hero-expert {
+    width: 15rem !important;
+    height: 4rem;
+    margin-top: 5rem;
+  }
+
+  /* hero section end */
+  .image-third {
+    max-height: 6rem;
+  }
+
+  .business button {
+    width: 30% !important;
+  }
+
+  .social,
+  .email,
+  .seo {
+    width: 26% !important;
+  }
+  
+  .experience {
+    width: 62vw;
+  }
+
+  .business-left {
+    width: 40%;
+  }
+
+  .business-right {
+    width: 35%;
+  }
+
+  .grow,
+  .get,
+  .drive {
+    width: 22.6%;
+  }
+
+  .client-para {
+    width: 32%;
+  }
+
+  .subscibe {
+    margin-left: 15rem !important;
+    margin-right: 15rem !important;
+  }
+
+}
+
+@media (min-width: 2560px) {
+
+  .image-third {
+    max-height: 11rem;
+  }
+
+}
